@@ -28,4 +28,14 @@ public class LearnCSharp : MonoBehaviour
     public Transform camPos;
     public GameObject obj;
     public Debug deb;
+
+    private void Start()
+    {
+        // 非靜態類別
+        // Camera.deth = 10.5f; // 錯誤寫法
+        cam.depth = 10.5f;
+
+        // 靜態類別
+        Debug.Log("123");
+    }
 }
