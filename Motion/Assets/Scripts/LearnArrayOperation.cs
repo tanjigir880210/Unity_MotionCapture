@@ -26,7 +26,7 @@ public class LearnArrayOperation : MonoBehaviour
         Debug.Log(10 / 3);
         Debug.Log(10 % 3);
 
-        //  數學比較子
+        //  數學比較子 (結果都是布林值)
         Debug.Log(10 > 3); // t
         Debug.Log(10 < 3); // f
         Debug.Log(10 >= 3); // t
@@ -42,6 +42,10 @@ public class LearnArrayOperation : MonoBehaviour
         else if (studentA >= 50)
         {
             Debug.Log("你可以補考～");
+        }
+        else if (studentA >= 40)
+        {
+            Debug.Log("下學期再來");
         }
         // 當 () 內為 false 會執行 {}
         else
